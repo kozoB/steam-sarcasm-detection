@@ -1,4 +1,2 @@
 # steam-sarcasm-detection
-Sarcasm detection in Steam game reviews using RoBERTa and metadata-enhanced classification. Includes zero-shot, few-shot, and fine-tuning experiments with feature engineering and sentiment analysis.
-
-Note: This repository includes code only. The annotated dataset is not publicly released due to copyright and ethical considerations
+This project focuses on detecting sarcasm in Steam game reviews using advanced transformer-based models. We explore fine-tuning RoBERTa-Large on textual review data and further enhance performance by integrating Steam-specific metadata features such as review scores, user votes, and sentiment indicators. The project implements a progressive evaluation strategy, including zero-shot, one-shot, few-shot, and full fine-tuning approaches, to assess model adaptability and effectiveness. Comprehensive experiments demonstrate the value of multi-modal feature integration for improved sarcasm detection and confidence calibration in the challenging domain of gaming reviews.
